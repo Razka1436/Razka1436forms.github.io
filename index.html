@@ -2,19 +2,19 @@
 <html>
 <head>
     <link rel="stylesheet" href="index.css">
-    <title>Challange Login Form</title>
+    <title>Challenge Login Form</title>
 </head>
 <body>
     <div class="login-container">
         <h2>Login Form</h2>
-        <form id="loginForm">
-            <label for="username">Username :</label>
-            <input type="text" id="username" name="username">
+        <form id="loginForm" action="user.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
 
-            <label for="password">Password :</label>
-            <input type="password" id="password" name="password">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
 
-            <a class="btn btn-primary" href="user.html" role="button">Masuk</a>
+            <input type="submit" class="btn btn-primary">
         </form>
     </div>
 
